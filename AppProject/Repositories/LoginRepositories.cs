@@ -14,10 +14,7 @@ namespace AppProject.Repositories
         {
             _db = Db;
         }
-        public LoginRepositories()
-        {
-            
-        }
+        
         public bool ValidateUser(LoginModel model)
         {
             var user = _db.Logins.Where(x => x.UserEmail == model.UserEmail && x.Password == model.Password).FirstOrDefault();
