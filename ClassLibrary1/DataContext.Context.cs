@@ -9,15 +9,12 @@
 
 namespace ClassLibrary1
 {
-    using Microsoft.EntityFrameworkCore;
     using System;
-    //using System.Data.Entity;
-    //using System.Data.Entity.Infrastructure;
-    
+
+    using Microsoft.EntityFrameworkCore;
+
     public partial class Entities : DbContext
     {
-      
-
         public Entities(DbContextOptions<Entities> options)
             : base(options)
         {
@@ -30,9 +27,12 @@ namespace ClassLibrary1
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employee>().ToTable("Employee");
-            
+            modelBuilder.Entity<Login>().ToTable("Login");
+
             base.OnModelCreating(modelBuilder);
         }
+
         public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Login> Logins { get; set; }
     }
 }
