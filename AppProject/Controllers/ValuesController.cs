@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using ClassLibrary1;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -14,6 +15,7 @@ namespace AppProject.Controllers
     [Route("api/[controller]")]
     
     [ApiController]
+    [Authorize]
     public class ValuesController : ControllerBase
     {
         private readonly Entities _db;
@@ -80,7 +82,7 @@ namespace AppProject.Controllers
             _db.SaveChanges();
             return Ok();
         }
-        [HttpPost]
+        [HttpPost,Authorize]
         [Route("api/Values/saveEmployee1")]
         public IActionResult SaveEmployee1(Employee model)
         {
@@ -113,6 +115,10 @@ namespace AppProject.Controllers
         public IActionResult DeleteEmployee(Guid Id)
         {
             var getEmployee = _db.Employees.Where(x => x.id == Id).FirstOrDefault();
+            if (getEmployee == null)
+            {
+                return Ok();
+            }
             _db.Remove(getEmployee);
             _db.SaveChanges();
             return Ok();

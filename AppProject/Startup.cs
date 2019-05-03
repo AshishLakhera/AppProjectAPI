@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary1;
+using CompsContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,6 +34,7 @@ namespace AppProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+         
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddCors(options =>
             {
@@ -42,6 +44,10 @@ namespace AppProject
                     .AllowAnyHeader()
                     .AllowCredentials()
                     );
+            });
+            services.Configure<IISOptions>(options => {
+                options.AutomaticAuthentication = false;
+                options.ForwardClientCertificate = false;
             });
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -55,9 +61,11 @@ namespace AppProject
 
             ValidIssuer = "http://localhost:4200",
             ValidAudience = "http://localhost:4200",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@3456"))
         };
     });
+            services.AddDbContext<CompsEntities>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("CompsConnection")));
 
             services.AddDbContext<Entities>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));

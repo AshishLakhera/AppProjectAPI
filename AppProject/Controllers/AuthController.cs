@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using AppProject.Model;
 using AppProject.Repositories;
 using ClassLibrary1;
+using CompsContext;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -19,27 +20,31 @@ namespace AppProject.Controllers
     public class AuthController : ControllerBase
     {
         private readonly Entities _db;
-        public AuthController(Entities Db)
+        private readonly CompsEntities _compsDb;
+        public AuthController(Entities Db, CompsEntities compsDb)
         {
             _db = Db;
+            _compsDb= compsDb;
         }
 
         [HttpPost, Route("login")]
         public IActionResult Login([FromBody]LoginModel user)
         {
+          
             if (user == null)
             {
                 return BadRequest("Invalid client request");
             }
-            LoginRepositories model = new LoginRepositories(_db);
-            bool IsValidUser= model.ValidateUser(user);
-            if (IsValidUser)
+            LoginRepositories model = new LoginRepositories(_db,_compsDb);
+            bool IsCompsUserValidate = model.ValidateCompsUser(user);
+            // bool IsValidUser= model.ValidateUser(user);
+            if (IsCompsUserValidate)
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@3456"));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
                 var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.Name, user.UserEmail),
+            new Claim(ClaimTypes.Name, user.UserName),
           //  new Claim(ClaimTypes.Role, "Manager")
         };
                 var tokeOptions = new JwtSecurityToken(
