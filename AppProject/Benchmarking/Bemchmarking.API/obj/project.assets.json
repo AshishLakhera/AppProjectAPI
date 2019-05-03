@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Benchmarking.BAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Benchmarking.Contracts": "1.0.0",
+          "Benchmarking.DAL": "1.0.0",
+          "Benchmarking.Logger": "1.0.0",
+          "Benchmarking.Model": "1.0.0",
+          "Benchmarking.Uilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Benchmarking.BAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.BAL.dll": {}
+        }
+      },
+      "Benchmarking.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Benchmarking.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Benchmarking.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.Contracts.dll": {}
+        }
+      },
+      "Benchmarking.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Benchmarking.Contracts": "1.0.0",
+          "Benchmarking.Logger": "1.0.0",
+          "Benchmarking.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Benchmarking.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.DAL.dll": {}
+        }
+      },
+      "Benchmarking.Logger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Benchmarking.Logger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.Logger.dll": {}
+        }
+      },
+      "Benchmarking.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Benchmarking.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.Model.dll": {}
+        }
+      },
+      "Benchmarking.Uilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Benchmarking.Uilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Benchmarking.Uilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Benchmarking.BAL/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.BAL/Benchmarking.BAL.csproj",
+      "msbuildProject": "../Benchmarking.BAL/Benchmarking.BAL.csproj"
+    },
+    "Benchmarking.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.Contracts/Benchmarking.Contracts.csproj",
+      "msbuildProject": "../Benchmarking.Contracts/Benchmarking.Contracts.csproj"
+    },
+    "Benchmarking.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.DAL/Benchmarking.DAL.csproj",
+      "msbuildProject": "../Benchmarking.DAL/Benchmarking.DAL.csproj"
+    },
+    "Benchmarking.Logger/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.Logger/Benchmarking.Logger.csproj",
+      "msbuildProject": "../Benchmarking.Logger/Benchmarking.Logger.csproj"
+    },
+    "Benchmarking.Model/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.Entities/Benchmarking.Model.csproj",
+      "msbuildProject": "../Benchmarking.Entities/Benchmarking.Model.csproj"
+    },
+    "Benchmarking.Uilities/1.0.0": {
+      "type": "project",
+      "path": "../Benchmarking.Uilities/Benchmarking.Uilities.csproj",
+      "msbuildProject": "../Benchmarking.Uilities/Benchmarking.Uilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "Benchmarking.BAL >= 1.0.0",
+      "Benchmarking.DAL >= 1.0.0",
+      "Benchmarking.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ashish.lakhera\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj",
+      "projectName": "Bemchmarking.API",
+      "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj",
+      "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj": {
+              "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj"
+            },
+            "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj": {
+              "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj"
+            },
+            "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+              "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

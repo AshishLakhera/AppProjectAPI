@@ -1,0 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-size: 12px;
+    font-family: 'FSAlbert', Arial, Helvetica, sans-serif;
+    padding: 0;
+}

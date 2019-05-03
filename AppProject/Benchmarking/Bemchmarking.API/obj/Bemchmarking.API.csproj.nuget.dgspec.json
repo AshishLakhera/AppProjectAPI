@@ -1,0 +1,443 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj",
+        "projectName": "Bemchmarking.API",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\Bemchmarking.API.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Bemchmarking.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj",
+        "projectName": "Benchmarking.BAL",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\Benchmarking.BAL.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\Benchmarking.Uilities.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\Benchmarking.Uilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj",
+        "projectName": "Benchmarking.Contracts",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj",
+        "projectName": "Benchmarking.DAL",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\Benchmarking.DAL.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Contracts\\Benchmarking.Contracts.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj"
+              },
+              "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj": {
+                "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj",
+        "projectName": "Benchmarking.Model",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\Benchmarking.Model.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj",
+        "projectName": "Benchmarking.Logger",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\Benchmarking.Logger.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.5.11, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\Benchmarking.Uilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\Benchmarking.Uilities.csproj",
+        "projectName": "Benchmarking.Uilities",
+        "projectPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\Benchmarking.Uilities.csproj",
+        "packagesPath": "C:\\Users\\ashish.lakhera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashish.lakhera\\MyFolder\\Projects\\Benchmarking\\Benchmarking.Uilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ashish.lakhera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

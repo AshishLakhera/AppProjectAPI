@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "81102420805ca94b13a43a7245fa15efb7ff1c8c"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Benchmarking.Logger/1.0.0": {
+        "dependencies": {
+          "NLog.Config": "4.5.11"
+        },
+        "runtime": {
+          "Benchmarking.Logger.dll": {}
+        }
+      },
+      "NLog/4.5.11": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.11.8645"
+          }
+        }
+      },
+      "NLog.Config/4.5.11": {
+        "dependencies": {
+          "NLog": "4.5.11",
+          "NLog.Schema": "4.5.11"
+        }
+      },
+      "NLog.Schema/4.5.11": {}
+    }
+  },
+  "libraries": {
+    "Benchmarking.Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/4.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yni/XrDfbEhaCSXJsDkmW/n5AunhOxZ7OKKb+0U1I1/d8ZaKt3Jjzf20g/xPiKljmYuZKYqI5iI34g138kK8UQ==",
+      "path": "nlog/4.5.11",
+      "hashPath": "nlog.4.5.11.nupkg.sha512"
+    },
+    "NLog.Config/4.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t5HsU37Yc11YOZnKWPiQa2gL8tVFtpEwBShlEo5qwT7//U2XbUjWv+kXuG0WeQmg14lWhRfhjpksUSYY52TIRA==",
+      "path": "nlog.config/4.5.11",
+      "hashPath": "nlog.config.4.5.11.nupkg.sha512"
+    },
+    "NLog.Schema/4.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TwhhjrfaqYAI2KnmzLaTapMHMAYqMf52/5vXdXiw3sZaSaBC0aPtEKWL+jAfR127r03N1fgMiVCyJbyuT1w4zA==",
+      "path": "nlog.schema/4.5.11",
+      "hashPath": "nlog.schema.4.5.11.nupkg.sha512"
+    }
+  }
+}

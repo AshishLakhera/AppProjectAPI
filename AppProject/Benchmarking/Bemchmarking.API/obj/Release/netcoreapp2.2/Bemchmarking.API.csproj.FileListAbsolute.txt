@@ -1,0 +1,14 @@
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\bin\Release\netcoreapp2.2\Bemchmarking.API.deps.json
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\bin\Release\netcoreapp2.2\Bemchmarking.API.runtimeconfig.json
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\bin\Release\netcoreapp2.2\Bemchmarking.API.runtimeconfig.dev.json
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\bin\Release\netcoreapp2.2\Bemchmarking.API.dll
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\bin\Release\netcoreapp2.2\Bemchmarking.API.pdb
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.csprojAssemblyReference.cache
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.csproj.CoreCompileInputs.cache
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.RazorAssemblyInfo.cache
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.RazorAssemblyInfo.cs
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.AssemblyInfoInputs.cache
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.AssemblyInfo.cs
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.RazorTargetAssemblyInfo.cache
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.dll
+C:\Users\preeti.patel\Data\CompsBuilder\Benchmarking\Bemchmarking.API\obj\Release\netcoreapp2.2\Bemchmarking.API.pdb

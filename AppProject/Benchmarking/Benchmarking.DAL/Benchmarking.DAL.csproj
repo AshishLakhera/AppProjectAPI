@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Benchmarking.Contracts\Benchmarking.Contracts.csproj" />
+    <ProjectReference Include="..\Benchmarking.Entities\Benchmarking.Model.csproj" />
+    <ProjectReference Include="..\Benchmarking.Logger\Benchmarking.Logger.csproj" />
+  </ItemGroup>
+
+</Project>
